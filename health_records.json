@@ -1,0 +1,146 @@
+{
+    "responses": {
+
+
+        "Hey there": {
+            "initial": "Hey! How's it going?"
+          },
+          "Hiya": {
+            "initial": "Hi! What's up?"
+          },
+          "Hello": {
+            "initial": "Hello! How are you today?"
+          },
+          "Hey, what's up?": {
+            "initial": "Not much, just chilling. How about you?"
+          },
+          "Hey": {
+            "initial": "Hey! What have you been up to?"
+          },
+          "Good day": {
+            "initial": "Good day to you too! How's everything going?"
+          },
+          "Hi, how are you?": {
+            "initial": "Hi! I'm doing well, thank you. How about yourself?"
+          },
+          "Hey, how's it hanging?": {
+            "initial": "Hey! Just taking it easy. What about you?"
+          },
+          "Hey, what's crackin'?": {
+            "initial": "Hey! Not much, just enjoying the day. How about you?"
+          },
+          "Hey, long time no see!": {
+            "initial": "Hey! Yeah, it's been a while. How have you been?"
+          },
+        "headache": {
+           "initial": "I'm sorry to hear that you're experiencing a headache. Where exactly is your headache located (e.g., forehead, temples, back of the head)?",
+            "back of the head": "Ok Let's continue. On a scale of 1 to 10, how severe is your headache(e.g one...ten)?",
+            "9": "Thank you. Let's move on with the remaining questions...How long have you been experiencing this headache?(e.g 1 hr, 1 day...)",
+            "2 hours": "Thank you. Here are the next questions, Is this a one-time occurrence, or do you frequently get headaches(eg. one time occurrence or frequently)?",
+            "one time occurrence": "Got it, How would you describe the pain (e.g., throbbing, dull, sharp, constant)?",
+            "sharp": "Thank you. Let's continue with the remaining questions..Have you noticed any specific triggers (e.g. stress, certain foods, lack of sleep)?",
+            "lack of sleep": "one last question...Do you have a history of migraines or any other chronic conditions?",
+            "no": "Thank you for providing all the necessary information. Based on your responses, here's some advice to help manage your headache...Since lack of sleep is a trigger, try to rest in a quiet, dark room, Drink plenty of water. Dehydration can worsen headaches, You may take over-the-counter pain relief medications like ibuprofen (Advil) or acetaminophen (Tylenol). Follow the dosage instructions on the package,Apply a cold pack or a cool, damp cloth to the back of your head for 15-20 minutes to help numb the pain, Gently stretch your neck and shoulder muscles or consider a light massage to relieve tension"
+       },
+        "My head is killing me": {
+            "initial": "I'm sorry to hear that you're experiencing a headache. Have you tried any natural remedies like peppermint oil or ginger tea?",
+            "yes": "That's great. If you're still feeling discomfort, you could try applying a cold compress to your forehead or practicing some gentle neck stretches. If the headache persists, it's best to consult with a healthcare professional.",
+            "no": "Okay, it might be helpful to try some simple remedies like drinking herbal tea or using a warm compress on your forehead. Sometimes, relaxation techniques such as progressive muscle relaxation or yoga can also help alleviate headache symptoms."
+        },
+        "I've got a splitting headache": {
+            "initial": "I'm sorry to hear that you're experiencing a headache. Have you tried any natural remedies like peppermint oil or ginger tea?",
+            "yes": "That's great. If you're still feeling discomfort, you could try applying a cold compress to your forehead or practicing some gentle neck stretches. If the headache persists, it's best to consult with a healthcare professional.",
+            "no": "Okay, it might be helpful to try some simple remedies like drinking herbal tea or using a warm compress on your forehead. Sometimes, relaxation techniques such as progressive muscle relaxation or yoga can also help alleviate headache symptoms."
+        },
+        "I have a throbbing headache": {
+            "initial": "I'm sorry to hear that you're experiencing a headache. Have you tried any natural remedies like peppermint oil or ginger tea?",
+            "yes": "That's great. If you're still feeling discomfort, you could try applying a cold compress to your forehead or practicing some gentle neck stretches. If the headache persists, it's best to consult with a healthcare professional.",
+            "no": "Okay, it might be helpful to try some simple remedies like drinking herbal tea or using a warm compress on your forehead. Sometimes, relaxation techniques such as progressive muscle relaxation or yoga can also help alleviate headache symptoms."
+        },
+        "I'm suffering from a headache": {
+            "initial": "I'm sorry to hear that you're experiencing a headache. Have you tried any natural remedies like peppermint oil or ginger tea?",
+            "yes": "That's great. If you're still feeling discomfort, you could try applying a cold compress to your forehead or practicing some gentle neck stretches. If the headache persists, it's best to consult with a healthcare professional.",
+            "no": "Okay, it might be helpful to try some simple remedies like drinking herbal tea or using a warm compress on your forehead. Sometimes, relaxation techniques such as progressive muscle relaxation or yoga can also help alleviate headache symptoms."
+        },
+        "I have a massive headache": {
+            "initial": "I'm sorry to hear that you're experiencing a headache. Have you tried any natural remedies like peppermint oil or ginger tea?",
+            "yes": "That's great. If you're still feeling discomfort, you could try applying a cold compress to your forehead or practicing some gentle neck stretches. If the headache persists, it's best to consult with a healthcare professional.",
+            "no": "Okay, it might be helpful to try some simple remedies like drinking herbal tea or using a warm compress on your forehead. Sometimes, relaxation techniques such as progressive muscle relaxation or yoga can also help alleviate headache symptoms."
+        },
+        "I've got a bad headache": {
+            "initial": "I'm sorry to hear that you're experiencing a headache. Where exactly is your headache located (e.g., forehead, temples, back of the head)?",
+            "back of the head": "Ok Let's continue. On a scale of 1 to 10, how severe is your headache(e.g one...ten)?",
+            "nine": "Thank you. Let's move on with the remaining questions...How long have you been experiencing this headache?(e.g 1 hr, 1 day...)",
+            "2 hours": "Thank you. Here are the next questions, Is this a one-time occurrence, or do you frequently get headaches(eg. one time occurrence or frequently)?",
+            "one time occurrence": "Got it, How would you describe the pain (e.g., throbbing, dull, sharp, constant)?",
+            "sharp": "Thank you. Let's continue with the remaining questions..Have you noticed any specific triggers (e.g. stress, certain foods, lack of sleep)?",
+            "lack of sleep": "one last question...Do you have a history of migraines or any other chronic conditions?",
+            "no": "Thank you for providing all the necessary information. Based on your responses, here's some advice to help manage your headache...Since lack of sleep is a trigger, try to rest in a quiet, dark room, Drink plenty of water. Dehydration can worsen headaches, You may take over-the-counter pain relief medications like ibuprofen (Advil) or acetaminophen (Tylenol). Follow the dosage instructions on the package,Apply a cold pack or a cool, damp cloth to the back of your head for 15-20 minutes to help numb the pain, Gently stretch your neck and shoulder muscles or consider a light massage to relieve tension"
+        },
+        "I'm dealing with a headache": {
+            "initial": "I'm sorry to hear that you're experiencing a headache. Have you tried any natural remedies like peppermint oil or ginger tea?",
+            "yes": "That's great. If you're still feeling discomfort, you could try applying a cold compress to your forehead or practicing some gentle neck stretches. If the headache persists, it's best to consult with a healthcare professional.",
+            "no": "Okay, it might be helpful to try some simple remedies like drinking herbal tea or using a warm compress on your forehead. Sometimes, relaxation techniques such as progressive muscle relaxation or yoga can also help alleviate headache symptoms."
+        },
+        "I have a terrible headache": {
+            "initial": "I'm sorry to hear that you're experiencing a headache. Have you tried any natural remedies like peppermint oil or ginger tea?",
+            "yes": "That's great. If you're still feeling discomfort, you could try applying a cold compress to your forehead or practicing some gentle neck stretches. If the headache persists, it's best to consult with a healthcare professional.",
+            "no": "Okay, it might be helpful to try some simple remedies like drinking herbal tea or using a warm compress on your forehead. Sometimes, relaxation techniques such as progressive muscle relaxation or yoga can also help alleviate headache symptoms."
+        },
+        "My head hurts": {
+            "initial": "I'm sorry to hear that you're experiencing a headache. Have you tried any natural remedies like peppermint oil or ginger tea?",
+            "yes": "That's great. If you're still feeling discomfort, you could try applying a cold compress to your forehead or practicing some gentle neck stretches. If the headache persists, it's best to consult with a healthcare professional.",
+            "no": "Okay, it might be helpful to try some simple remedies like drinking herbal tea or using a warm compress on your forehead. Sometimes, relaxation techniques such as progressive muscle relaxation or yoga can also help alleviate headache symptoms."
+        },
+        "fever": {
+            "initial": "I'm sorry to hear that you're feeling unwell. Fevers can be concerning. Have you been experiencing any other symptoms along with the fever, such as body aches or fatigue?",
+            "low": "Managing a low-grade fever involves staying hydrated, getting plenty of rest, and taking over-the-counter fever reducers like acetaminophen or ibuprofen. If your symptoms worsen or persist, it's advisable to seek medical attention.",
+            "high": "A high fever can indicate a more serious underlying condition. It's important to monitor your temperature closely and seek medical attention if it rises above a certain threshold or if you experience additional symptoms such as confusion or difficulty breathing."
+        },
+        "anxiety": {
+            "initial": "I'm sorry to hear that you're feeling anxious. It's important to address these feelings. Have you tried any relaxation techniques like deep breathing or mindfulness meditation?",
+            "short": "Short periods of anxiety are common, but if it's becoming overwhelming, it's essential to find healthy coping mechanisms. Talking to a trusted friend or family member can also provide support.",
+            "long": "Persistent anxiety can significantly impact daily life. Seeking professional help from a therapist or counselor can provide valuable strategies for managing anxiety and improving overall well-being."
+        },
+        "nausea": {
+            "initial": "I'm sorry to hear that you're experiencing nausea. Have you eaten anything unusual or are you feeling stressed?",
+            "yes": "If you suspect that something you ate may be causing the nausea, it's best to avoid that food and focus on eating bland, easy-to-digest foods like crackers or toast. Ginger tea or peppermint tea can also help soothe the stomach.",
+            "no": "Okay, it might be helpful to try sipping on clear fluids like water or herbal tea and eating small, bland snacks like crackers or pretzels. If the nausea persists or worsens, it's important to consult with a healthcare professional."
+        },
+        "fatigue": {
+            "initial": "I'm sorry to hear that you're feeling fatigued. Fatigue can have various causes. Have you been getting enough sleep lately?",
+            "yes": "Getting sufficient rest is essential for combating fatigue. It might also be helpful to incorporate regular exercise and a balanced diet into your routine. If fatigue persists despite these measures, it's advisable to consult with a healthcare professional.",
+            "no": "Okay, it's important to prioritize rest and relaxation to combat fatigue. Try to establish a regular sleep schedule and limit caffeine and screen time before bedtime. If fatigue continues to be a problem, it's best to seek medical advice."
+        },
+        "sore_throat": {
+            "initial": "I'm sorry to hear that you have a sore throat. Have you noticed any other symptoms like coughing or congestion?",
+            "yes": "If you're experiencing additional symptoms, it's possible that you may have a cold or flu. It's important to rest, stay hydrated, and consider over-the-counter remedies like throat lozenges or saline gargles.",
+            "no": "Okay, it might be helpful to soothe your throat with warm tea or honey. Gargling with salt water can also provide relief. If the sore throat persists for more than a few days or if you develop other symptoms, it's advisable to consult with a healthcare professional."
+        },
+        "cough": {
+            "initial": "I'm sorry to hear that you're experiencing a cough. Have you noticed if it's dry or productive?",
+            "dry": "A dry cough can be irritating. It's important to stay hydrated and consider using cough drops or a humidifier to ease discomfort. If the cough persists for more than a few weeks or if you develop other symptoms, it's advisable to consult with a healthcare professional.",
+            "productive": "A productive cough can be a sign that your body is trying to clear mucus or irritants from your airways. It's important to stay hydrated and consider using expectorants or cough suppressants as directed. If the cough persists or worsens, it's advisable to consult with a healthcare professional."
+        },
+        "stomach_pain": {
+            "initial": "I'm sorry to hear that you're experiencing stomach pain. Have you eaten anything unusual or spicy recently?",
+            "yes": "If you suspect that something you ate may be causing the stomach pain, it's best to avoid that food and focus on eating bland, easily digestible foods like rice or bananas. Drinking plenty of water and avoiding alcohol and caffeine can also help soothe the stomach.",
+            "no": "Okay, it might be helpful to try sipping on clear fluids like water or herbal tea and eating small, bland snacks like crackers or toast. Applying a warm compress to the abdomen or taking over-the-counter antacids may also provide relief. If the stomach pain persists or worsens, it's important to consult with a healthcare professional."
+        },
+        "muscle_pain": {
+            "initial": "I'm sorry to hear that you're experiencing muscle pain. Have you recently engaged in strenuous physical activity or experienced an injury?",
+            "yes": "If the muscle pain is due to physical activity or injury, it's important to rest and apply ice or heat to the affected area as needed. Over-the-counter pain relievers like ibuprofen or acetaminophen can also help alleviate discomfort. If the pain persists or worsens, it's important to consult with a healthcare professional.",
+            "no": "Okay, it might be helpful to try gentle stretching or massage to relieve muscle tension. Applying ice or heat to the affected area and taking over-the-counter pain relievers like ibuprofen or acetaminophen can also help alleviate discomfort. If the muscle pain persists for more than a few days or if you develop other symptoms, it's advisable to consult with a healthcare professional."
+        },
+        "dizziness": {
+            "initial": "I'm sorry to hear that you're experiencing dizziness. Dizziness can have various causes, including inner ear problems, dehydration, or low blood sugar. Have you noticed if the dizziness is worse when you change positions or if you're feeling lightheaded?",
+            "yes": "If you're experiencing lightheadedness or dizziness when changing positions, it could be related to changes in blood pressure. Make sure to stay hydrated and avoid sudden movements. If the dizziness persists or worsens, it's important to consult with a healthcare professional.",
+            "no": "Okay, it's important to stay hydrated and avoid sudden movements if you're feeling dizzy. If the dizziness persists or worsens, it's important to consult with a healthcare professional. Dizziness can sometimes be a sign of an underlying medical condition that needs attention."
+        },
+        "chest_pain": {
+        "initial": "I'm sorry to hear that you're experiencing chest pain. Chest pain can have various causes, some of which are serious. Have you noticed if the pain is sharp or dull? Is it accompanied by any other symptoms like shortness of breath or nausea?",
+        "sharp": "Sharp chest pain can sometimes be a sign of a more serious condition like a heart attack or a lung problem. It's important not to ignore it. If you're experiencing chest pain along with symptoms like shortness of breath, nausea, or dizziness, it's crucial to seek medical attention immediately.",
+        "dull": "Dull chest pain can have many possible causes, including muscle strain, acid reflux, or anxiety. It's important to pay attention to any accompanying symptoms and seek medical attention if you're unsure. If the pain persists or worsens, it's advisable to consult with a healthcare professional."
+        }
+        }
+        }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "395469957637",
+    "project_id": "healthadvisor-e7c75",
+    "storage_bucket": "healthadvisor-e7c75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395469957637:android:80fecbf9c061f4bcb28a6c",
+        "android_client_info": {
+          "package_name": "com.example.ha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlDJOHv4ZFoRvCqd2WtJRQgnshvcrDHAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
