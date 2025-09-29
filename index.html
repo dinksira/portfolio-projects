@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinksira Elsa - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="top">
+        <!-- Fixed Header -->
+        <header class="header">
+            <div class="header-container">
+                <!-- Styled name in top-left -->
+                <div class="logo">
+                    Dinksira Elsa
+                </div>
+
+                <!-- Navigation -->
+                <nav class="nav">
+                    <button class="nav-link" onclick="scrollToSection('about')">About</button>
+                    <button class="nav-link" onclick="scrollToSection('projects')">Project details</button>
+                    <button class="nav-link" onclick="scrollToSection('skills')">Skills</button>
+                    <button class="nav-link" onclick="scrollToSection('recommendations')">Recommendations</button>
+                    
+                    <!-- Home icon -->
+                    <button class="home-btn" onclick="scrollToSection('top')" aria-label="Go to top">
+                        <svg class="home-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            <polyline stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="9,22 9,12 15,12 15,22"></polyline>
+                        </svg>
+                    </button>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- About Me Section -->
+            <section id="about" class="section">
+                <div class="container">
+                    <div class="about-grid">
+                        <!-- Profile Image -->
+                        <div class="profile-image-container">
+                            <div class="profile-image-wrapper">
+                                <img src="p.jpg" 
+                                     alt="Dinksira Elsa" 
+                                     class="profile-image">
+                                <div class="profile-overlay"></div>
+                            </div>
+                        </div>
+
+                        <!-- About Content -->
+                        <div class="about-content">
+                            <div class="about-header">
+                                <h1 class="name">Dinksira Elsa</h1>
+                                <h2 class="title">Full Stack Developer & Creative Technologist</h2>
+                            </div>
+                            
+                            <p class="bio-primary">
+                                I'm a passionate full-stack developer with a strong foundation in modern web technologies 
+                                and a creative approach to problem-solving. I specialize in building scalable applications 
+                                using React, Node.js, and cutting-edge frameworks, while always keeping user experience 
+                                at the forefront. My journey in tech is driven by curiosity and a desire to create 
+                                meaningful digital solutions.
+                            </p>
+
+                            <p class="bio-secondary">
+                                I thrive on turning complex challenges into elegant, user-friendly applications. 
+                                Whether it's frontend interfaces or backend architecture, I'm committed to delivering 
+                                high-quality solutions that make a difference. Let's collaborate and bring your ideas to life!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Project Details Section -->
+            <section id="projects" class="section section-alt">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Project Details</h2>
+                        <p class="section-description">
+                            Here are some of my recent projects that showcase my skills in full-stack development and user experience design.
+                        </p>
+                    </div>
+
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3 class="project-title">EcoTracker - Sustainability Dashboard</h3>
+                                <div class="project-links">
+                                    <button class="icon-btn" aria-label="View on GitHub">
+                                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                        </svg>
+                                    </button>
+                                    <button class="icon-btn" aria-label="View live demo">
+                                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                A comprehensive web application that helps companies track their environmental impact and carbon footprint. Built with React, Node.js, and D3.js for interactive data visualizations. Features real-time monitoring, automated reporting, and goal-setting capabilities.
+                            </p>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3 class="project-title">MindfulMoments - Meditation App</h3>
+                                <div class="project-links">
+                                    <button class="icon-btn" aria-label="View on GitHub">
+                                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                        </svg>
+                                    </button>
+                                    <button class="icon-btn" aria-label="View live demo">
+                                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                A mobile-first Progressive Web App designed to guide users through meditation and mindfulness practices. Includes guided sessions, progress tracking, and personalized recommendations. Developed using React Native, Firebase, and integrated with Spotify API for ambient soundtracks.
+                            </p>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3 class="project-title">CodeCollab - Developer Community Platform</h3>
+                                <div class="project-links">
+                                    <button class="icon-btn" aria-label="View on GitHub">
+                                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                        </svg>
+                                    </button>
+                                    <button class="icon-btn" aria-label="View live demo">
+                                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                An interactive platform where developers can share code snippets, collaborate on projects, and mentor each other. Features include real-time code editing, version control integration, and community-driven learning paths. Built with Next.js, Socket.io, and PostgreSQL.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Skills</h2>
+                        <p class="section-description">
+                            I have experience across the full development stack, from frontend frameworks to backend systems and design.
+                        </p>
+                    </div>
+
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <svg class="icon-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                                </svg>
+                            </div>
+                            <div class="skill-content">
+                                <h3 class="skill-name">JavaScript</h3>
+                                <span class="skill-category">Frontend</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <svg class="icon-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                                </svg>
+                            </div>
+                            <div class="skill-content">
+                                <h3 class="skill-name">React</h3>
+                                <span class="skill-category">Frontend</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <svg class="icon-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
+                                </svg>
+                            </div>
+                            <div class="skill-content">
+                                <h3 class="skill-name">Node.js</h3>
+                                <span class="skill-category">Backend</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <svg class="icon-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"></path>
+                                </svg>
+                            </div>
+                            <div class="skill-content">
+                                <h3 class="skill-name">Database Design</h3>
+                                <span class="skill-category">Backend</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <svg class="icon-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z"></path>
+                                </svg>
+                            </div>
+                            <div class="skill-content">
+                                <h3 class="skill-name">UI/UX Design</h3>
+                                <span class="skill-category">Design</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <svg class="icon-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a1 1 0 001-1v-1H7v1a1 1 0 001 1zM10 2v2a2 2 0 104 0V2a1 1 0 00-1-1h-2a1 1 0 00-1 1zM12 6a6 6 0 106 6h-6V6z"></path>
+                                </svg>
+                            </div>
+                            <div class="skill-content">
+                                <h3 class="skill-name">Mobile Development</h3>
+                                <span class="skill-category">Mobile</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills by category summary -->
+                    <div class="skills-summary">
+                        <div class="summary-item">
+                            <h4 class="summary-title">Frontend</h4>
+                            <p class="summary-count">2 skills</p>
+                        </div>
+                        <div class="summary-item">
+                            <h4 class="summary-title">Backend</h4>
+                            <p class="summary-count">2 skills</p>
+                        </div>
+                        <div class="summary-item">
+                            <h4 class="summary-title">Design</h4>
+                            <p class="summary-count">1 skill</p>
+                        </div>
+                        <div class="summary-item">
+                            <h4 class="summary-title">Mobile</h4>
+                            <p class="summary-count">1 skill</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Recommendations Section -->
+            <section id="recommendations" class="section section-alt">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Recommendations</h2>
+                        <p class="section-description">
+                            Here's what colleagues and clients have to say about working with me.
+                        </p>
+                    </div>
+
+                    <!-- Existing Recommendations -->
+                    <div class="recommendations-grid" id="recommendationsGrid">
+                        <div class="recommendation-card">
+                            <div class="stars">
+                                <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                            </div>
+                            
+                            <blockquote class="recommendation-text">
+                                "Dinksira is an exceptional developer who brings both technical expertise and creative problem-solving to every project. Their ability to translate complex requirements into elegant solutions is remarkable. I highly recommend Dinksira for any development team."
+                            </blockquote>
+                            
+                            <div class="recommendation-author">
+                                <p class="author-name">Sarah Chen</p>
+                                <p class="author-role">Product Manager at TechFlow</p>
+                            </div>
+                        </div>
+
+                        <div class="recommendation-card">
+                            <div class="stars">
+                                <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                            </div>
+                            
+                            <blockquote class="recommendation-text">
+                                "Working with Dinksira was a fantastic experience. They have a deep understanding of modern web technologies and consistently deliver high-quality code. Dinksira is also an excellent communicator and mentor, always willing to share knowledge with the team."
+                            </blockquote>
+                            
+                            <div class="recommendation-author">
+                                <p class="author-name">Michael Rodriguez</p>
+                                <p class="author-role">Senior Engineer at DataSync</p>
+                            </div>
+                        </div>
+
+                        <div class="recommendation-card">
+                            <div class="stars">
+                                <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                                <svg class="star" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                </svg>
+                            </div>
+                            
+                            <blockquote class="recommendation-text">
+                                "Dinksira has an incredible eye for design combined with strong technical skills. They bridge the gap between design and development beautifully, creating user experiences that are both visually stunning and highly functional. A true asset to any project."
+                            </blockquote>
+                            
+                            <div class="recommendation-author">
+                                <p class="author-name">Emily Watson</p>
+                                <p class="author-role">Design Lead at Creative Labs</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add Recommendation Form -->
+                    <div class="form-container">
+                        <div class="form-card">
+                            <h3 class="form-title">Add Your Recommendation</h3>
+                            
+                            <form id="recommendationForm" class="recommendation-form">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="name" class="form-label">Your Name</label>
+                                        <input type="text" id="name" name="name" required class="form-input" placeholder="Enter your name">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="role" class="form-label">Your Role</label>
+                                        <input type="text" id="role" name="role" required class="form-input" placeholder="e.g., Senior Developer at Company">
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="text" class="form-label">Your Recommendation</label>
+                                    <textarea id="text" name="text" required rows="4" class="form-textarea" placeholder="Share your experience working with Dinksira..."></textarea>
+                                </div>
+                                
+                                <button type="submit" class="submit-btn">
+                                    <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+                                    </svg>
+                                    Submit Recommendation
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <p class="footer-text">
+                    © 2024 Dinksira Elsa. Built with passion and modern web technologies.
+                </p>
+                <p class="footer-subtitle">
+                    Ready to collaborate? Let's create something amazing together!
+                </p>
+            </div>
+        </footer>
+
+        <!-- Confirmation Popup -->
+        <div id="confirmationPopup" class="popup-overlay">
+            <div class="popup-content">
+                <div class="popup-icon">
+                    <svg class="icon-xl" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                </div>
+                <h3 class="popup-title">Thank You!</h3>
+                <p class="popup-text">Your recommendation has been successfully added and will be visible on the page.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
